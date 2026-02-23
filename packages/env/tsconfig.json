@@ -1,0 +1,6 @@
+{
+  "extends": "@event-management-sc-2026/config/tsconfig.base.json",
+  "compilerOptions": {
+    "strictNullChecks": true
+  }
+}

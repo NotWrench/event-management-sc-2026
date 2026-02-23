@@ -1,0 +1,24 @@
+{
+  "name": "@event-management-sc-2026/auth",
+  "type": "module",
+  "exports": {
+    ".": {
+      "default": "./src/index.ts"
+    },
+    "./*": {
+      "default": "./src/*.ts"
+    }
+  },
+  "scripts": {},
+  "dependencies": {
+    "@event-management-sc-2026/db": "workspace:*",
+    "@event-management-sc-2026/env": "workspace:*",
+    "better-auth": "catalog:",
+    "dotenv": "catalog:",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@event-management-sc-2026/config": "workspace:*",
+    "typescript": "catalog:"
+  }
+}
